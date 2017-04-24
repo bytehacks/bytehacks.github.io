@@ -274,6 +274,63 @@ section.success {
 #faq * {
   z-index: 2;
 }
+
+#team {
+	background: #FF69AC;
+	color: #FFFFFF;
+}
+
+.logos div {
+/*	align-self: center;*/
+/*	float: right*/
+}
+
+#sponsors {
+	background: #FFFFFF;
+	color: #324A5E;
+}
+
+#sponsors p {
+	text-align: center;
+}
+
+
+.sponsorsection {
+  margin: 0 auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sponsor{
+  display:flex;
+/*
+  background-color: #000;
+   border: 2px solid black; 
+  border-radius: 3px;
+  -webkit-filter: brightness(0) invert(1);
+*/
+}
+
+.sponsor:hover{
+/*  -webkit-filter: none;*/
+/*   background-color: white; */
+}
+
+.sponsor img {
+  width:200px;
+  margin: auto;
+}
+
+
+/*
+.logos img {
+	height: 60%;
+	width: 60%;
+	margin: 0 auto;
+	display: inline-block;
+}
+*/
 @media (min-width: 767px) {
   #faq .portfolio-item {
     margin: 0 0 30px;
